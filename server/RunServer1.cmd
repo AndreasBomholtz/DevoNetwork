@@ -2,10 +2,10 @@
 @title Server #1
 :iniServer
 echo.
-echo DEVONETWORK
+echo Light RP
 echo.
 echo.
-echo Initiating Server 1 [Port:30001]
+echo Initiating Server 1 [Port:30120]
 echo %date%
 echo.
 echo %time% : Searching for Cache...
@@ -16,7 +16,7 @@ echo %time% : Starter serveren
 FXServer +set citizen_dir %~dp0\citizen\ +exec server.cfg
 echo %time% : Server was shut down..
 timeout /t 2 >nul
-echo %time% : Prøver at genstarte serveren...
+echo %time% : PrÃ¸ver at genstarte serveren...
 timeout /t 3 >nul
 echo.
 goto iniServer
