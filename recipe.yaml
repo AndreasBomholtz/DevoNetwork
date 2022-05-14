@@ -4,11 +4,11 @@ author: OliSickBoom
 description: A txAdmin recipe for Devo Files.
 
 tasks:
-    - action: download_github
-      url: AndreasMadsen/DevoNetwork
-      subpath: server
-      path: ./.
+  - action: download_github
+    url: AndreasMadsen/DevoNetwork
+    subpath: server
+    path: ./.
 
-    - action: connect_database
-    - action: query_database
-      file: ./sql.sql
+  - action: connect_database
+  - action: query_database
+    file: ./sql.sql
