@@ -5,7 +5,7 @@ description: A txAdmin recipe for Devo Files.
 
 tasks:
   - action: download_github
-    url: AndreasMadsen/DevoNetwork
+    src: https://github.com/AndreasMadsen/DevoNetwork
     subpath: server
     path: ./.
 
