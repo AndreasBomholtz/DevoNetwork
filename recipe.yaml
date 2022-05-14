@@ -7,7 +7,7 @@ tasks:
   - action: download_github
     src: https://github.com/AndreasMadsen/DevoNetwork
     subpath: server
-    path: ./.
+    dest: ./.
 
   - action: connect_database
   - action: query_database
